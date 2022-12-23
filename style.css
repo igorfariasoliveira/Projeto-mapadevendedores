@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, gray, rgb(92, 92, 92), rgb(75, 75, 75));
+    
+}
+div#mapa{
+    overflow: hidden;
+}
+div#mapa > img{ 
+    width: 95vw;
+    height: 93vh;
+    transform-origin: center center;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+a {
+    font-size: 3em;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
