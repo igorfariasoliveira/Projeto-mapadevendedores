@@ -10,7 +10,7 @@ body {
 div#mapa{
     overflow: hidden;
 }
-div#mapa > img{ 
+div#mapa > img#map{ 
     width: 95vw;
     height: 93vh;
     transform-origin: center center;
@@ -23,8 +23,11 @@ h1 {
     padding-top: 5px;
 }
 a {
-    font-size: 3em;
     position: absolute;
     top: 250px;
     left: 100px;
+}
+.bolinha{
+    width: 10px;
+    height: 10px;
 }
